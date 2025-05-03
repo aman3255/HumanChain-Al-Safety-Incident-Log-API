@@ -1,0 +1,9 @@
+name = "HumanChain AI Safety"
+main = "src/index.ts"
+compatibility_date = "2025-01-20"
+
+
+
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZmFhMzJlMmYtMTlmMi00NTM0LWE2OGItNWU2YTNjYzgxMTY5IiwidGVuYW50X2lkIjoiOTA5YzllZWJlOGQ3ODAyOTFmODM0ZDE4MzUzN2RiYzYwYTdmOGU0YTIzNzBmMzdkZTZjMzUyYjYwNTE2NWJkMCIsImludGVybmFsX3NlY3JldCI6IjFhYzZiNmE4LTBkOTktNDcyZi05ZTAxLTI5NGMzM2E3YTFhNCJ9.0NhCgPXy_LNdV74QgodiEH2GMpzkl0M4DfAv9nQ1hGg"
