@@ -232,16 +232,3 @@ Start the server:
 ```bash
 node dist/index.js
 ```
-
-## 🔒 Security Notes
-
-- Sensitive database credentials are stored in environment variables
-- Proper input validation prevents SQL injection attacks
-- API endpoints use appropriate HTTP status codes for comprehensive error handling
-
-## 🚧 Future Enhancements
-
-- Authentication and authorization
-- Incident categorization and tagging
-- Metrics and reporting dashboard
-- Notification system for critical incidents
