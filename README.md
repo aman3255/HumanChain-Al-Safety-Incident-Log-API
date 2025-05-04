@@ -30,7 +30,7 @@ HumanChain AI Safety uses a modern, scalable architecture:
 
 ### Prerequisites
 - Node.js (v18+)
-- npm or yarn
+- npm 
 
 ### Installation
 
@@ -62,6 +62,7 @@ compatibility_date = "2025-01-20"
 [vars]
 DATABASE_URL="put_your_prisma_accelerate_url"
 ```
+![Connection Pooling](/assets/connectionPooling.png)
 
 5. Run database migrations:
 ```bash
@@ -131,7 +132,7 @@ POST http://localhost:6000/api/v1/humanchain/incidents
   "reported_at": "2025-05-03T19:58:33.439Z"
 }
 ```
-![Create Incident via Postman](/createIncident.png)
+![Create Incident via Postman](/assets/createIncident.png)
 
 ### Get All Incidents
 
@@ -173,7 +174,7 @@ GET http://localhost:6000/api/v1/humanchain/incidents
   }
 ]
 ```
-![Retrieve Incident via Postman](/getAllIncidents.png)
+![Retrieve Incident via Postman](/assets/getAllIncidents.png)
 
 ### Get Incident by ID
 
@@ -192,7 +193,7 @@ GET http://localhost:6000/api/v1/humanchain/incidents/2
   "reported_at": "2025-05-03T19:59:50.582Z"
 }
 ```
-![Get Incident by Id via Postman](/getIncidentById.png)
+![Get Incident by Id via Postman](/assets/getIncidentById.png)
 
 ### Delete Incident
 
@@ -207,7 +208,7 @@ DELETE http://localhost:6000/api/v1/humanchain/incidents/4
   "message": "Incident with ID 4 deleted successfully"
 }
 ```
-![Delete Incident by Id via Postman](/deleteIncidentById.png)
+![Delete Incident by Id via Postman](/assets/deleteIncidentById.png)
 
 ## 📊 Database Schema
 
