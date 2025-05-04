@@ -5,7 +5,16 @@ import { withAccelerate } from '@prisma/extension-accelerate';
 // Allowed severity values
 const ALLOWED_SEVERITIES = ['Low', 'Medium', 'High'];
 
-// POST /incidents: Log a new incident to the database
+
+/**
+ * POST /incidents
+ * Logs a new incident to the database.
+ * Request body must include title, description, and severity.
+ * Automatically assigns a unique ID and reported_at timestamp.
+ * Responds with 201 Created and the created incident object.
+ * Returns 400 Bad Request if validation fails.
+ */
+
 const createIncident = async (req: Request, res: Response) => {
     const prisma = new PrismaClient({
         datasourceUrl: process.env.DATABASE_URL,
